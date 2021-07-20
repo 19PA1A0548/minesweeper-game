@@ -1,9 +1,9 @@
 /*
-	This file is used to create board for the game and timer 
+	1.) This file is used to create board for the game and timer 
 	for the game.
-	Created a seperate file for bomb class which includes bomb 
+	2.) Created a seperate file for bomb class which includes bomb 
 	onclick events. 
-	Created seperate file for valid class which includes what
+	3.) Created seperate file for valid class which includes what
 	should happen when a div without bomb class is clicked 
 	, when a flag is marked , checking wether the player had 
 	won the game or not
@@ -30,7 +30,7 @@
       		var obj = new Valid();
       		obj.click(div)
       	}
-      	//cntrl and left click
+      	//right click
       	div.oncontextmenu = function(e){
       		e.preventDefault()
         	addingMark(div)
@@ -44,7 +44,7 @@
       		var obj = new Valid();
       		obj.click(div)
       	}
-				//cntrl and left click
+				//right click
       div.oncontextmenu = function(e){
       	e.preventDefault()
         addingMark(div)
@@ -60,7 +60,7 @@
       		var obj = new Valid();
       		obj.click(div)
       	}
-				///cntrl and left click
+				//right click
       div.oncontextmenu = function(e){
       	e.preventDefault()
         addingMark(div)
@@ -74,7 +74,7 @@
       		var obj = new Valid();
       		obj.click(div)
       	}
-				//cntrl and left click
+				//right click
       div.oncontextmenu = function(e){
       	e.preventDefault()
         addingMark(div)
