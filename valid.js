@@ -1,3 +1,26 @@
+/*
+	This class is used for div with valid class and when the 
+	div is clicked an object for this class is created and we 
+	can call methods in this class with the object.
+	
+	Valid -- ClassName
+
+	addingAttribute(method) -- Adding respective class or id to the div 
+
+	click(method) -- This method is used when a div with valid 
+	class is clicked if the div is not surrounded by any bomb
+	it calls the clicking and checkNeighbours method recursively. If the div 
+	contains bomb then object for Bomb class is created and
+	bomb method is invoked.
+
+	clicking(method) -- This method is executed when this method
+	is called from click method.
+
+	checkNeighbours(method) -- This method is executed when it is
+  called from click method to recursively check neighbours of 
+	corresponding div.  	
+*/
+
 class Valid{
 
 	constructor(div){
