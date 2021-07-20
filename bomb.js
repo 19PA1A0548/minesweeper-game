@@ -1,3 +1,15 @@
+/*
+	This class is used for a div with bomb class when the 
+	div is clicked an object for this class is created and 
+	we can call methods in this class with the object.
+
+	Bomb -- ClassName
+	addingAttribute(method) -- Adding respective class or id to the div 
+	bomb(method) -- This method is used when a bomb class div is clicked
+	and this method is used to end the game..
+
+*/
+
 class Bomb{
 	constructor(div){
 		this.flagcount = 0;
