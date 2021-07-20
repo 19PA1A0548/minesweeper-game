@@ -1,7 +1,12 @@
 /*
-	we need a class which should create a board 
-	we need a class for bomb 
-	we need a class for not bomb
+	This file is used to create board for the game and timer 
+	for the game.
+	Created a seperate file for bomb class which includes bomb 
+	onclick events. 
+	Created seperate file for valid class which includes what
+	should happen when a div without bomb class is clicked 
+	, when a flag is marked , checking wether the player had 
+	won the game or not
 
 */
 	var bombcount = 0;
@@ -131,7 +136,8 @@
   			
   	}
   }
-var count = 0;
+
+  var count = 0;
 setInterval(function(){ 
 	count++;
 	document.getElementById("timer").innerHTML = count;
